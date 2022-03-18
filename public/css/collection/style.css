@@ -1,0 +1,14 @@
+.card {
+  transition: all 0.8s ease-in;
+  transition-duration: 0.8s;
+  background-color: #f8f9fa;
+}
+
+
+.card:hover {
+  transition: all 0.8s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -8px;
+  border: 1px solid #cccccc;
+  background-color: white;
+}
